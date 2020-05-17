@@ -4,11 +4,6 @@ class Footer extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      documentLinks: [
-        <Link href="/">
-          <a>Back to home</a>
-        </Link>,
-      ],
       photoLinks: [
         <Link href="/">
           <a>Back to home</a>
@@ -17,14 +12,11 @@ class Footer extends React.Component {
     };
   }
   render() {
-    const doc = this.state.documentLinks.map((i) => <li>{i}</li>);
     const photo = this.state.photoLinks.map((i) => <li>{i}</li>);
     return (
       <div>
-        <ul>
-          {doc}
-          {photo}
-        </ul>
+        Foto's
+        <ul>{photo}</ul>
       </div>
     );
   }
