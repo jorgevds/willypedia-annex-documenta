@@ -1,6 +1,7 @@
 import Link from "next/link";
+import styles from "./footer.module.css";
 
-class Footer extends React.Component {
+export default class Footer extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -12,14 +13,12 @@ class Footer extends React.Component {
     };
   }
   render() {
-    const photo = this.state.photoLinks.map((i) => <li>{i}</li>);
+    const photo = this.state.photoLinks.map((i) => <li key={i.id}>{i}</li>);
     return (
       <div>
-        Foto's
+        <h3 className={styles.header}>Foto's</h3>
         <ul>{photo}</ul>
       </div>
     );
   }
 }
-
-export default Footer;

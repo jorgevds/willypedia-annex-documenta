@@ -50,3 +50,16 @@
 .lightText {
     color: #999;
 }
+
+.essays {
+    color: red;
+}
+
+.headingThree {
+    font: 400 1.5rem 'Lora', serif;
+}
+
+.bulletList {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) 50%;
+}

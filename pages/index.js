@@ -9,23 +9,23 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Header />
-      <Footer />
-      <section>
-        <h2>Essays</h2>
-        <ul>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href="/posts/[id]" as={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
+      <section className={utilStyles.essaySection}>
+        <h3 className={utilStyles.headingThree}>Essays</h3>
+        <ul className={utilStyles.bulletList}>
+          {allPostsData.map(({ id, title }) => {
+            return (
+              <li className={utilStyles.listItem} key={id}>
+                <Link href="/posts/[id]" as={`/posts/${id}`}>
+                  <a>{title}</a>
+                </Link>
+                <br />
+                <small className={utilStyles.lightText}></small>
+              </li>
+            );
+          })}
         </ul>
       </section>
+      <Footer />
     </Layout>
   );
 }

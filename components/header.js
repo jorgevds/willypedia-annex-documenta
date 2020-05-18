@@ -1,24 +1,20 @@
 import Head from "next/head";
+import styles from "./header.module.css";
 
 const Header = () => (
-  <main className="container">
+  <main className={styles.container}>
     <Head>
       <title>Willypedia: titel te beslissen</title>
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/icon.png" />
     </Head>
     <header>
-      <ul>
-        <li className="title">Willy Roggeman</li>
+      <ul className={styles.list}>
+        <li className={styles.title}>willy roggeman</li>
       </ul>
     </header>
     <div>
-      <p className="description">is de man</p>
-
-      <h3>met een plan?</h3>
-
-      <h2>Nee</h2>
-
-      <h3>Hij is gewoon de man</h3>
+      <h3>hier een ondertitel/hoofding</h3>
+      <p>blurb/introductie</p>
     </div>
   </main>
 );
