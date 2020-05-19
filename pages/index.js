@@ -1,11 +1,19 @@
 import Header from "../components/header";
-import Footer from "../components/footer";
+// import Footer from "../components/footer";
 import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
+import useSWR from "swr";
+import Image from "../components/Image";
 
 export default function Home({ allPostsData }) {
+  const fetcher = (url) => fetch(url).then((res) => res.json());
+
+  const { data, error } = useSWR("/api/images", fetcher);
+
+  if (error) return <div>Failed to load</div>;
+  if (!data) return <div>Loading...</div>;
   return (
     <Layout home>
       <Header />
@@ -25,7 +33,12 @@ export default function Home({ allPostsData }) {
           })}
         </ul>
       </section>
-      <Footer />
+      <h3 className={utilStyles.headingThree}>Foto's</h3>
+      <ul>
+        {data.map((p, i) => (
+          <Image key={i} image={p} />
+        ))}
+      </ul>
     </Layout>
   );
 }
