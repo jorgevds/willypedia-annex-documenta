@@ -2,6 +2,15 @@
     min-height: 50vh;
 }
 
+.heading {
+    font: 600 1.5rem 'Lora', serif;
+    color: hsla(240, 79%, 48%, 0.774);
+}
+
+.blurb {
+    padding: 60px 0 120px;
+}
+
 .list {
     display: flex;
     margin: 0;

@@ -1,5 +1,6 @@
 import Layout from "../../components/layout";
 import { getAllPostIds, getPostData } from "../../lib/posts";
+import utilStyles from "../../styles/utils.module.css";
 
 export default function Post({ postData }) {
   return (
@@ -10,6 +11,9 @@ export default function Post({ postData }) {
       <br />
       {postData.date} */}
       <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+      <a href="/" className={utilStyles.back}>
+        Terug
+      </a>
     </Layout>
   );
 }

@@ -18,7 +18,7 @@ export default function Home({ allPostsData }) {
     <Layout home>
       <Header />
       <section className={utilStyles.essaySection}>
-        <h3 className={utilStyles.headingThree}>Essays</h3>
+        <h3 className={utilStyles.heading}>Essays</h3>
         <ul className={utilStyles.bulletList}>
           {allPostsData.map(({ id, title }) => {
             return (
@@ -33,10 +33,10 @@ export default function Home({ allPostsData }) {
           })}
         </ul>
       </section>
-      <h3 className={utilStyles.headingThree}>Foto's</h3>
-      <ul>
+      <h3 className={utilStyles.heading}>Foto's</h3>
+      <ul className={utilStyles.bulletList}>
         {data.map((p, i) => (
-          <Image key={i} image={p} />
+          <Image key={i} image={p} className={utilStyles.listItem} />
         ))}
       </ul>
     </Layout>

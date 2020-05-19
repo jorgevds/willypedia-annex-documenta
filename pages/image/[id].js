@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import useSWR from "swr";
 import utilStyles from "../../styles/utils.module.css";
+import Link from "next/link";
 
 const fetcher = async (url) => {
   const res = await fetch(url);
@@ -23,12 +24,13 @@ export default function Image() {
   if (!data) return <div>Loading...</div>;
 
   return (
-    <table className={utilStyles.headingThree}>
-      <tbody className={utilStyles.headingThree}>
-        <tr className={utilStyles.headingThree}>
-          <td className={utilStyles.headingThree}>{data.name}</td>
-          <img src={data.img} />
-          <td>{data.header}</td>
+    <table className={utilStyles.table}>
+      <tbody className={utilStyles.dataBody}>
+        <tr className={utilStyles.heading}>
+          <Link href="/">Terug</Link>
+          <td className={utilStyles.dataName}>{data.name}</td>
+          <img className={utilStyles.dataImg} src={data.img} />
+          <td className={utilStyles.dataHeader}>{data.header}</td>
         </tr>
       </tbody>
     </table>

@@ -1,36 +1,5 @@
-.heading2Xl {
-    font-size: 2.5rem;
-    line-height: 1.2;
-    font-weight: 800;
-    letter-spacing: -0.05rem;
-    margin: 1rem 0;
-}
-
-.headingXl {
+.back {
     font-size: 2rem;
-    line-height: 1.3;
-    font-weight: 800;
-    letter-spacing: -0.05rem;
-    margin: 1rem 0;
-}
-
-.headingLg {
-    font-size: 1.5rem;
-    line-height: 1.4;
-    margin: 1rem 0;
-}
-
-.headingMd {
-    font-size: 1.2rem;
-    line-height: 1.5;
-}
-
-.borderCircle {
-    border-radius: 9999px;
-}
-
-.colorInherit {
-    color: inherit;
 }
 
 .padding1px {
@@ -55,10 +24,14 @@
     color: red;
 }
 
-.headingThree {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.heading {
+    text-align: center;
+    font: 600 1.5rem 'Lora', serif;
+    color: hsla(240, 79%, 48%, 0.774);
+    width: 100vw;
+}
+
+.headingTwo {
     text-align: center;
     font: 400 1.5rem 'Lora', serif;
 }
@@ -66,4 +39,44 @@
 .bulletList {
     display: grid;
     grid-template-columns: repeat(1, 1fr) 50%;
+}
+
+.table {
+    border-spacing: 0;
+}
+
+.dataBody {
+    display: grid;
+}
+
+.dataName {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dataImg {
+    margin: 20px;
+    text-align: center;
+    width: 70%;
+    height: auto;
+    max-height: 80vh;
+    border: 2px solid black;
+}
+
+.dataHeader {
+    font-size: 1.3rem;
+    font-weight: 800;
+    letter-spacing: 5px;
+    display: block;
+    justify-content: center;
+    color: black;
+    padding: 0;
+    padding-top: 40px;
+    background-color: hsl(217, 98%, 50%);
+    height: 50vh;
+    overflow: hidden;
+    border-top-right-radius: 50px 20px;
+    border-top-left-radius: 50px 20px;
 }
