@@ -2,3 +2,53 @@
     text-align: center;
     font: 600 1.5rem 'Lora', serif
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    margin: auto;
+    text-align: center;
+}
+
+.dataName {
+    display: block;
+    justify-content: center;
+    margin-top: 20px;
+    color: #0c2453;
+}
+
+.dataImg {
+    margin: 20px;
+    text-align: center;
+    max-height: 80vh;
+    border: 2px solid #68702a;
+    box-shadow: 0 10px 10px 5px rgba(0, 0, 0, 0.25);
+}
+
+.dataHeader {
+    font-size: 1.3rem;
+    font-weight: 800;
+    justify-content: center;
+    color: #b4a28c;
+    padding: 40px 20px;
+    text-align: left;
+    /* background-color: #1c51bb9d; */
+}
+
+.backLink {
+    margin: auto;
+    width: 10%;
+    border-radius: 10px;
+    padding: 15px;
+    color: #0c2453;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+.backLink:hover {
+    background-color: #0c245334;
+    transition: background-color .6s ease;
+}

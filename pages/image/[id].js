@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import useSWR from "swr";
-import utilStyles from "../../styles/utils.module.css";
+import styles from "./image.module.css";
+import Layout from "../../components/Layout";
 import Link from "next/link";
 
 const fetcher = async (url) => {
@@ -24,19 +25,19 @@ export default function Image() {
   if (!data) return <div>Loading...</div>;
 
   return (
-    <table className={utilStyles.table}>
-      <tbody className={utilStyles.dataBody}>
-        <tr className={utilStyles.heading}>
-          <td className={utilStyles.dataName}>{data.name}</td>
-          <img className={utilStyles.dataImg} src={data.img} />
-          <div className={utilStyles.content}>
-            <td className={utilStyles.dataHeader}>{data.header}</td>
-            <Link href="/image/home">
-              <a className={utilStyles.backLink}>Terug</a>
-            </Link>
-          </div>
-        </tr>
-      </tbody>
-    </table>
+    <Layout title={`Willypedia: foto's: ${data.name}`}>
+      <div className={styles.container}>
+        <div className={styles.content}>
+          <h1 className={styles.dataName}>{data.name}</h1>
+          <img className={styles.dataImg} src={data.img} />
+        </div>
+        <div className={styles.content}>
+          <h3 className={styles.dataHeader}>{data.header}</h3>
+          <Link href="/image/home">
+            <a className={styles.backLink}>Terug</a>
+          </Link>
+        </div>
+      </div>
+    </Layout>
   );
 }

@@ -17,6 +17,18 @@ a {
     position: relative;
 }
 
+.backLink {
+    margin: auto;
+    width: 10%;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.backLink:hover {
+    background-color: #0c245334;
+    transition: background-color .6s ease;
+}
+
 ul {
     margin: 0;
     padding: 0;

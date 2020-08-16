@@ -1,13 +1,8 @@
-import Head from "next/head";
 import Link from "next/link";
 import styles from "./header.module.css";
 
 const Header = () => (
   <header>
-    <Head>
-      <title>Willypedia: titel te beslissen</title>
-      <link rel="icon" href="/icon copy.png" />
-    </Head>
     <nav>
       <ul className={styles.list}>
         <li className={styles.title}>

@@ -1,5 +1,3 @@
-import useSWR from "swr";
-import Image from "../../components/Image";
 import Layout from "../../components/Layout";
 import { getSortedPostsData } from "../../lib/posts";
 import utilStyles from "../../styles/utils.module.css";
@@ -7,7 +5,7 @@ import Link from "next/link";
 
 const EssaysHome = ({ allPostsData }) => {
   return (
-    <Layout>
+    <Layout title="Willypedia: essays">
       {/* {postData.title}
         <br />
         {postData.id}

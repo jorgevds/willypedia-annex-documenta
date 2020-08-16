@@ -13,7 +13,7 @@ const ImagesHome = () => {
   if (!data) return <div>Loading...</div>;
 
   return (
-    <Layout>
+    <Layout title="Willypedia: foto's">
       {/* {postData.title}
         <br />
         {postData.id}

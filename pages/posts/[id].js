@@ -4,7 +4,7 @@ import utilStyles from "../../styles/utils.module.css";
 
 export default function Post({ postData }) {
   return (
-    <Layout>
+    <Layout title={`Willypedia: essays: ${postData.title}`}>
       {/* {postData.title}
       <br />
       {postData.id}
