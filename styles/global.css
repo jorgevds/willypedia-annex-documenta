@@ -12,11 +12,17 @@ html, body {
 }
 
 a {
-    color: black;
+    color: #0c2453;
     text-decoration: none;
+    position: relative;
 }
 
-a:hover {
-    color: #0070f3;
-    text-decoration: underline;
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 20px;
 }

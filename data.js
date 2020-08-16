@@ -1,23 +1,28 @@
 export const images = [
   {
     id: "1",
-    name: "Dragon Quest 1",
-    img: "/dq1.jpg",
-    header:
-      "Dragon Quest 1: het beste (?) Dragon Quest spel en waar het allemaal begon.",
+    name: "Roggeman in profiel",
+    img: "/roggeman-profiel.jpg",
+    header: "De auteur in zijn jeugd, zwart-wit.",
   },
   {
     id: "2",
-    name: "Dragon Quest 11",
-    img: "/dq2.jpg",
+    name: "Blues voor glazen blazers",
+    img: "/blues-voor-glazen-blazers.jpg",
     header:
-      "Dragon Quest 11: de laatste nieuwe Dragon Quest. Ondergewaardeerd in het westen want genegeerd door critici.",
+      'De debuutroman van Roggeman. Een diepere studie in het werk van Roggeman problematiseert het begrip "debuut" in de context van het oeuvre.',
   },
   {
     id: "3",
-    name: "Dragon Quest 8",
-    img: "/dq3.jpg",
+    name: "Roggeman",
+    img: "/roggeman-frontaal.jpg",
+    header: "De auteur in latere jaren.",
+  },
+  {
+    id: "4",
+    name: "De asse waait de tuin weer binnen",
+    img: "/de-asse.jpg",
     header:
-      "Dragon Quest 8: het eerste Dragon Quest spel dat doorbraak kende in het westen.",
+      "Recente bron van Professor Jürgen Pieters, hoofd van het Roggemanarchief aan de UGent, over Suse Esberg en haar familie.",
   },
 ];

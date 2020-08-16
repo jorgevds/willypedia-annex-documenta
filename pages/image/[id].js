@@ -27,10 +27,14 @@ export default function Image() {
     <table className={utilStyles.table}>
       <tbody className={utilStyles.dataBody}>
         <tr className={utilStyles.heading}>
-          <Link href="/">Terug</Link>
           <td className={utilStyles.dataName}>{data.name}</td>
           <img className={utilStyles.dataImg} src={data.img} />
-          <td className={utilStyles.dataHeader}>{data.header}</td>
+          <div className={utilStyles.content}>
+            <td className={utilStyles.dataHeader}>{data.header}</td>
+            <Link href="/image/home">
+              <a className={utilStyles.backLink}>Terug</a>
+            </Link>
+          </div>
         </tr>
       </tbody>
     </table>

@@ -1,27 +1,35 @@
 import Head from "next/head";
+import Link from "next/link";
 import styles from "./header.module.css";
 
 const Header = () => (
-  <main className={styles.container}>
+  <header>
     <Head>
       <title>Willypedia: titel te beslissen</title>
-      <link rel="icon" href="/icon.png" />
+      <link rel="icon" href="/icon copy.png" />
     </Head>
-    <header>
+    <nav>
       <ul className={styles.list}>
-        <li className={styles.title}>willy roggeman</li>
+        <li className={styles.title}>
+          <Link href="/">
+            <a className={styles.headerLink}>willy roggeman</a>
+          </Link>
+        </li>
+
+        <li className={styles.title}>
+          <Link href="/posts/home">
+            <a className={styles.headerLink}>essays</a>
+          </Link>
+        </li>
+
+        <li className={styles.title}>
+          <Link href="/image/home">
+            <a className={styles.headerLink}>foto's</a>
+          </Link>
+        </li>
       </ul>
-    </header>
-    <div>
-      <h3 className={styles.heading}>de online annex documenta</h3>
-      <p className={styles.blurb}>
-        Hieronder volgen links naar essays en fotomateriaal dat, doch niet in
-        publicatie beschikbaar is, doch relevant--en bovendien{" "}
-        <i>interessant</i>--is voor academische en buiten-academische
-        doeleinden.
-      </p>
-    </div>
-  </main>
+    </nav>
+  </header>
 );
 
 export default Header;
