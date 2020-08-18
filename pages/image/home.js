@@ -1,6 +1,6 @@
 import useSWR from "swr";
 import Image from "../../components/Image";
-
+import Layout from "../../components/Layout";
 import utilStyles from "../../styles/utils.module.css";
 import Link from "next/link";
 
@@ -13,7 +13,7 @@ const ImagesHome = () => {
   if (!data) return <div>Loading...</div>;
 
   return (
-    <div>
+    <Layout title="Willypedia: foto's">
       {/* {postData.title}
         <br />
         {postData.id}
@@ -25,7 +25,7 @@ const ImagesHome = () => {
           <Image key={i} image={p} className={utilStyles.listItem} />
         ))}
       </ul>
-    </div>
+    </Layout>
   );
 };
 

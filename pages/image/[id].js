@@ -14,7 +14,7 @@ const fetcher = async (url) => {
   return data;
 };
 
-export default function Image() {
+const Image = () => {
   const { query } = useRouter();
   const { data, error } = useSWR(
     () => query.id && `/api/images/${query.id}`,
@@ -38,4 +38,6 @@ export default function Image() {
       </div>
     </Layout>
   );
-}
+};
+
+export default Image;
