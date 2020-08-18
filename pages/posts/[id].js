@@ -1,6 +1,7 @@
 import Layout from "../../components/Layout";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 import utilStyles from "../../styles/utils.module.css";
+import styles from "./post.module.css";
 
 export default function Post({ postData }) {
   return (
@@ -10,9 +11,12 @@ export default function Post({ postData }) {
       {postData.id}
       <br />
       {postData.date} */}
-      <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-      <a href="/" className={utilStyles.back}>
-        Terug
+      <div
+        dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
+        className={styles.container}
+      />
+      <a href="/" className={utilStyles.backLink}>
+        Terug naar overzicht
       </a>
     </Layout>
   );

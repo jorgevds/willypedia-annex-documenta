@@ -11,7 +11,7 @@ const EssaysHome = ({ allPostsData }) => {
         {postData.id}
         <br />
         {postData.date} */}
-      <h3 className={utilStyles.header}>Essays</h3>
+      <h3 className={utilStyles.header}>essays</h3>
       {allPostsData.map(({ id, title }) => {
         return (
           <li className={utilStyles.listItem} key={id}>

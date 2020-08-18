@@ -3,14 +3,15 @@
     font: 600 1.5rem 'Lora', serif
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-}
-
-.content {
+.content, .contentText {
     margin: auto;
     text-align: center;
+    width: 100%;
+}
+
+.contentText {
+    background-color: #1c51bb9d;
+    min-height: 40vh;
 }
 
 .dataName {
@@ -32,15 +33,14 @@
     font-size: 1.3rem;
     font-weight: 800;
     justify-content: center;
-    color: #b4a28c;
+    color: #e2a65c;
     padding: 40px 20px;
     text-align: left;
-    /* background-color: #1c51bb9d; */
+    margin-bottom: 0;
 }
 
 .backLink {
     margin: auto;
-    width: 10%;
     border-radius: 10px;
     padding: 15px;
     color: #0c2453;
@@ -49,6 +49,7 @@
 }
 
 .backLink:hover {
-    background-color: #0c245334;
-    transition: background-color .6s ease;
+    font-weight: 700;
+    font-size: 1.1rem;
+    transition: all .3s ease;
 }

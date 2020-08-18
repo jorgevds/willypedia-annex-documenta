@@ -26,17 +26,15 @@ export default function Image() {
 
   return (
     <Layout title={`Willypedia: foto's: ${data.name}`}>
-      <div className={styles.container}>
-        <div className={styles.content}>
-          <h1 className={styles.dataName}>{data.name}</h1>
-          <img className={styles.dataImg} src={data.img} />
-        </div>
-        <div className={styles.content}>
-          <h3 className={styles.dataHeader}>{data.header}</h3>
-          <Link href="/image/home">
-            <a className={styles.backLink}>Terug</a>
-          </Link>
-        </div>
+      <div className={styles.content}>
+        <h1 className={styles.dataName}>{data.name}</h1>
+        <img className={styles.dataImg} src={data.img} />
+      </div>
+      <div className={styles.contentText}>
+        <h3 className={styles.dataHeader}>{data.header}</h3>
+        <Link href="/image/home">
+          <a className={styles.backLink}>Terug naar overzicht</a>
+        </Link>
       </div>
     </Layout>
   );

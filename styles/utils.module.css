@@ -10,6 +10,7 @@
 
 .listItem {
     margin: 0 0 1.25rem;
+    list-style: none;
 }
 
 .lightText {
@@ -20,11 +21,10 @@
     color: red;
 }
 
-.heading {
-    text-align: center;
+.header {
     font: 600 1.5rem 'Lora', serif;
     color: hsla(240, 79%, 48%, 0.774);
-    width: 100vw;
+    padding: 0 20px;
 }
 
 .bulletList {
@@ -41,12 +41,15 @@
 
 .backLink {
     margin: auto;
-    width: 10%;
     border-radius: 10px;
     padding: 15px;
+    color: #0c2453;
+    letter-spacing: 1px;
+    font-size: 1rem;
 }
 
 .backLink:hover {
-    background-color: #0c245334;
-    transition: background-color .6s ease;
+    font-weight: 700;
+    font-size: 1.1rem;
+    transition: all .3s ease;
 }

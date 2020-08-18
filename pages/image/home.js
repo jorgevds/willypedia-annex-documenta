@@ -1,6 +1,6 @@
 import useSWR from "swr";
 import Image from "../../components/Image";
-import Layout from "../../components/Layout";
+
 import utilStyles from "../../styles/utils.module.css";
 import Link from "next/link";
 
@@ -13,19 +13,19 @@ const ImagesHome = () => {
   if (!data) return <div>Loading...</div>;
 
   return (
-    <Layout title="Willypedia: foto's">
+    <div>
       {/* {postData.title}
         <br />
         {postData.id}
         <br />
         {postData.date} */}
-      <h3 className={utilStyles.header}>Foto's</h3>
+      <h3 className={utilStyles.header}>foto's</h3>
       <ul className={utilStyles.bulletList}>
         {data.map((p, i) => (
           <Image key={i} image={p} className={utilStyles.listItem} />
         ))}
       </ul>
-    </Layout>
+    </div>
   );
 };
 
