@@ -28,7 +28,7 @@ const Image = () => {
     <Layout title={`Willypedia: foto's: ${data.name}`}>
       <div className={styles.content}>
         <h1 className={styles.dataName}>{data.name}</h1>
-        <img className={styles.dataImg} src={data.img} />
+        <img className={styles.dataImg} src={data.img} loading="lazy" />
       </div>
       <div className={styles.contentText}>
         <h3 className={styles.dataHeader}>{data.header}</h3>

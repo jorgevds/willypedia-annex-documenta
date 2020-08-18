@@ -15,7 +15,7 @@ export default function Post({ postData }) {
         dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
         className={styles.container}
       />
-      <a href="/" className={utilStyles.backLink}>
+      <a href="/posts" className={utilStyles.backLink}>
         Terug naar overzicht
       </a>
     </Layout>
