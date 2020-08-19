@@ -12,17 +12,18 @@ const EssaysHome = ({ allPostsData }) => {
         <br />
         {postData.date} */}
       <h3 className={utilStyles.header}>essays</h3>
-      {allPostsData.map(({ id, title }) => {
-        return (
-          <li className={utilStyles.listItem} key={id}>
-            <Link href="/posts/[id]" as={`/posts/${id}`}>
-              <a>{title}</a>
-            </Link>
-            <br />
-            <small className={utilStyles.lightText}></small>
-          </li>
-        );
-      })}
+      <ul className={utilStyles.unorderedList}>
+        {allPostsData.map(({ id, title }) => {
+          return (
+            <li className={utilStyles.listItem} key={id}>
+              <Link href="/posts/[id]" as={`/posts/${id}`}>
+                <a>{title}</a>
+              </Link>
+              <small className={utilStyles.lightText}></small>
+            </li>
+          );
+        })}
+      </ul>
     </Layout>
   );
 };

@@ -8,8 +8,10 @@ const Layout = ({ children, title = `${title}` }) => {
       <Head>
         <title>{title}</title>
         <meta charSet="utf-8" />
+        <meta name="description" content="Bron over Willy Roggeman" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="icon" href="/favicon.png" />
+        <html lang="nl" />
       </Head>
       <Header />
       {children}

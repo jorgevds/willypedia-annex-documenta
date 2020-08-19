@@ -1,20 +1,11 @@
-.padding1px {
-    padding-top: 1px;
+.containerPadding {
+    padding: 0 60px;
 }
 
 .list {
     list-style: none;
     padding: 0;
     margin: 0;
-}
-
-.listItem {
-    margin: 0 0 1.25rem;
-    list-style: none;
-}
-
-.lightText {
-    color: #999;
 }
 
 .essays {
@@ -24,12 +15,35 @@
 .header {
     font: 600 1.5rem 'Lora', serif;
     color: hsla(240, 79%, 48%, 0.774);
-    padding: 0 20px;
 }
 
 .bulletList {
     display: grid;
     grid-template-columns: repeat(1, 1fr) 50%;
+}
+
+.listItem {
+    list-style: none;
+}
+
+.listItem:after {
+    display: block;
+    content: '';
+    border-bottom: solid 2px #1a1adbc5;
+    transform: scaleX(0);
+    transform-origin: 0% 50%;
+    transition: transform 350ms ease-in-out;
+    width: 80%;
+    /* want to change the layout of this mapped array to flex eventually */
+}
+
+.listItem:hover:after {
+    transform: scaleX(1);
+}
+
+.listItem:hover {
+    font-size: 1.1rem;
+    transition: font-size 350ms ease-in-out;
 }
 
 .content {

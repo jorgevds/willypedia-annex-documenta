@@ -22,6 +22,11 @@ const Header = () => (
             <a className={styles.headerLink}>foto's</a>
           </Link>
         </li>
+        <li className={styles.title}>
+          <Link href="/biografie">
+            <a className={styles.headerLink}>bio</a>
+          </Link>
+        </li>
       </ul>
     </nav>
   </header>

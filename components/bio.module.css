@@ -1,0 +1,25 @@
+.container {
+    min-height: 50vh;
+}
+
+.containerBlurb {
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blurb {
+    flex: 0 0 60vw;
+}
+
+.imageBio {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    font: 600 1.3rem 'Lora', serif;
+    color: hsla(240, 79%, 48%, 0.774);
+}
