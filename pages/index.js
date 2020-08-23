@@ -1,6 +1,6 @@
 import Body from "../components/Body";
 // import Footer from "../components/footer";
-import Layout from "../components/Layout";
+import Layout from "../components/layouts/Layout";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 

@@ -1,4 +1,4 @@
-import Layout from "../../components/Layout";
+import Layout from "../../components/layouts/Layout";
 import { getSortedPostsData } from "../../lib/posts";
 import utilStyles from "../../styles/utils.module.css";
 import Link from "next/link";
@@ -11,6 +11,7 @@ const EssaysHome = ({ allPostsData }) => {
         {postData.id}
         <br />
         {postData.date} */}
+
       <h3 className={utilStyles.header}>essays</h3>
       <ul className={utilStyles.unorderedList}>
         {allPostsData.map(({ id, title }) => {

@@ -1,23 +1,14 @@
-// import Link from "next/link";
-// import styles from "./footer.module.css";
+import Link from "next/link";
+import styles from "./footer.module.css";
 
-// export default class Footer extends React.Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = {
-//       photoLinks: [
-//         <Link href="/">
-//           <a>Back to home</a>
-//         </Link>,
-//       ],
-//     };
-//   }
-//   render() {
-//     const photo = this.state.photoLinks.map((i) => <li key={i.id}>{i}</li>);
-//     return (
-//       <div>
-//         <ul>{photo}</ul>
-//       </div>
-//     );
-//   }
-// }
+const Footer = () => {
+  return (
+    <div className={styles.container}>
+      <Link href="/">
+        <a className={styles.homeLink}>willypedia</a>
+      </Link>
+    </div>
+  );
+};
+
+export default Footer;

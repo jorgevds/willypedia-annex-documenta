@@ -23,3 +23,12 @@
     font: 600 1.3rem 'Lora', serif;
     color: hsla(240, 79%, 48%, 0.774);
 }
+
+.unorderedList {
+    list-style: none;
+}
+
+.note {
+    margin: 30px 0;
+    font-style: italic;
+}

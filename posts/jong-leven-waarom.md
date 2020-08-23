@@ -3,9 +3,8 @@ title: "Dieptepsychologische en kultuurhistorische jazz-analyse (een causerie) v
 date: "1953-11-03"
 ---
 
-# Dieptepsychologische en kultuurhistorische jazz-analyse (een causerie) voor wijlen Django Reinhardt.
+<h1 class="MDtitel">Dieptepsychologische en kultuurhistorische jazz-analyse (een causerie) voor wijlen Django Reinhardt.</h1>
 
-<br /><br />
 De bedoeling van deze voordracht is niet van u allen jazzliefhebbers te maken, het komt er eerder op aan een aantal begrippen op te helderen en vooroordelen, waarmede u mogelijk behept zoudt zijn, uit de weg te ruimen. Ik wil objectief, haast wetenschappelijk zijn in mijn uiteenzetting. Alleen dergelijke methode kan de negerjazz tenslotte ten goede komen, en het heeft mij altijd droevig gestemd te moeten constateren, dat totnogtoe weinig monografieën of artikels geschreven zijn geworden die deze opvatting respecteren. De Franse tijdschriften (‘jazz-hot’) dienen de reclame, en komen eerder de firma’s van muziekinstrumenten dan de muziek zélf ten goede; Hugues Panassié is zozeer met de jazz ingenomen, dat hij er géén kwade punten meer in ziet, wat ook met de Belg R. Goffin het geval is; in Amerika is de rassenhaat terug aan het groeien gegaan, en bepaalde critici drijven het zelf zo ver de bron van de jazz aan de blanken toe te schrijven. Buiten het boek van Rex Harris ‘Jazz’ kan ik geen enkel werk aanbevelen. (1) Tenslotte blijft dit dan ook nog een historisch relaas van oorsprong en evolutie van de jazz tot op onze dagen. Maar een vergelijkende studie, waarin de jazz als een noodzakelijk verschijnsel van onze eeuw wordt aangevoeld, waar paralellen met andere kunsttakken worden getrokken, is naar mijn weten nog niet geschreven geworden. Dat is het juist, wat ik bondig zal trachten te doen in deze uiteenzetting.
 
 Het kader, waarin de jazz verscheen, moet vooreerst helder worden geschetst. Jazz is niet uit de lucht gevallen, er zijn oorzaken die diep in de kluwen van de geschiedenis dienen gezocht te worden. Wanneer wij even teruggrijpen naar de Renaissancetijd, merken wij een wending op in de geestesevolutie van Europa: een einde van het middeleeuws dogmatisch geloof, een prediken van het vrije denken en een groter belang hechten aan het aardse, kunnen wij bondig als nieuwe factoren aanstippen. Een breuk met de romaanse en gothische tijd is kenschetsend. Een natuurlijke evolutie naar de Aufklär[u]ng en de liberalistische periode ligt eigenlijk reeds impliciet voor de hand. De mens begint meer en meer waarde aan zichzelf en aan het aardse te hechten, waar vroeger dit bestaan slechts als een stadium, leidend naar het hiernamaals, werd beschouwd. Een technische ontwikkeling, een wetenschappelijke analyse van de dingen hangt met de nieuwe geest samen, zodat over het monisme heen, en politisch langs de Franse revolutie om, wij in een negentiende eeuw belanden, waarin de technische vooruitgang god wordt en aan een Jenseits en een (voort)bestaan van de ziel niet meer wordt geloofd: Nietzsche kon terecht zeggen dat god dood was. De zekerheid die men door deze ontwikkeling had gehoopt, bleef echter uit. (2) Vele hoogstaande geesten hadden het gevaar van een dergelijke ontwikkeling voorzien. De burgerlijke industrieel zag ze echter niet. Bij het einde van de eeuw komt een geestelijke vermoeidheid, een toestand van lauw bloed, logischerwijze naar voor. Ortega y Gasset bestempelt terecht de 19de eeuw als de ‘zelfvoldane eeuw’. De productie was tot oververzadiging gestegen, en toch bestond er geen mogelijkheid om het geheel plots stop te zetten. De grote kwaal van onze tijd werd tenslotte een tekort aan wenskracht. (3)
@@ -48,11 +47,25 @@ De blues noem ik terecht de meest typische vorm van jazz. Elke neger kent hem. D
 
 De volgende gradatie lag dus in mijn uiteenzetting:
 
+<ul class="MDunorderedList">
+<li>
 1. negerimprovisatie op een volksthema
+</li>
+<ol class="MDsubList" type="a">
+<li>
    - individueel
+</li>
+<li>
    - collectief
+</li>
+   </ol>
+   <li>
 2. negerimprovisatie op de blues
+   </li>
+   <li>
 3. negerimprovisatie op de blues met onbekende musici
+   </li>
+</ul>
 
 Hiermede hebben wij de hoogste vorm van New-Orleansjazz bereikt, en gedurende dit betoog regelmatig op de dieptepsychologische kenmerken gewezen. Daarmee zouden we het bewijs van verwantschap tussen psycho-analyse en de jazz als afgehandeld kunnen beschouwen. Maar er blijft nog een heel bijzonder fenomeen te bespreken. Ik bedoel het hypnose-verschijnsel, dat zich bij de in vervoering geraakte vrouwen gedurende rituele dansen voordoet. In de beoefening van de godsdienst speelt bij de Amerikaanse neger de jazz een grote rol. De godsdienst van de Creolen ligt verdeeld over een aantal secten, die allen min of meer tot het protestantisme behoren. Belangrijk is, dat de godsdienst aanleiding gaf tot het ontstaan van een groot aantal spirituals (Is het nog nodig aan te stippen dat de salonstem van Paul Robeson niets met jazz te maken heeft?) Zelfs op de Engelstalige hymnen wist de neger zijn accent te drukken. Christus wordt in deze liederen meestal gezien als de heiland, i.e. hij die het Joodse volk van de oud-testamentische schuld kwam verlossen en de weg toonde tot het beloofde land (zie het artikel van C. Höweler’s ‘xyz der muziek’). De negerslaven achtten zich op dezelfde trap als de Joden en hun enige hoop bestond er in, dat de heilige geest hen van uit dit ellendig, aards bestaan zou vrijmaken (niet zozeer door de dood, dan wel door een daadwerkelijk ingrijpen in de toestanden hier op aarde). Naast de vrome koorliederen, die in een gevoelige toon, maar binnen de perken van het verstandelijke worden gezongen, zijn er de ‘gospelsingers’, de verkondigers van het evangelie, meestal vrouwen, die de naam van ‘sister’ dragen. Een bepaald vers uit het evangelie nemen zij tot thema, en dit wordt in een bluesvorm gegoten, en als blues gezongen, die tot de afgrijselijkste scenes aanleiding kunnen geven (zie Jazz-hot 1952; Elder Davis). De vrouwen, die bij dergelijke scéances aanwezig zijn, geraken buiten zichzelf, en gaan over tot dansen, die alle kenmerken van de Afrikaanse ritusdansen dragen.
 
@@ -62,10 +75,14 @@ Na deze dieptepsychologische analyse van bepaalde jazzkenmerken, tracht ik nu bo
 In dezelfde toestand beoefent de surrealistische dichter het automatisch schrift, dat soms gehele nonsens schijnt te zijn, maar bij andere ontleding verbazende dingen ontsluiert. Aan deze primitieve, ruwe verzen kan de dichter nog maandenlang schaven tot het gedicht tenslotte alle gaafheid bezit en als geslaagd kan worden beschouwd. Ook op een jazzthema wordt herhaalde malen geïmproviseerd, bepaalde frasen vallen weg, andere blijven, nieuwe duiken op, maar tenslotte krijgt het stuk zijn definitieve vorm, zodat het rijp is voor enregistratie. Ook in de schilderkunst bestaat dezelfde techniek. Magritte heeft een tijd doorgemaakt, dat hij alle dagen een schilderij gestalte gaf. Het blijft echter niet bij de techniek van ontstaan. De analogie gaat zelfs tot diep in de inhoud en de vorm van gedicht. Het bluesthema, het geobsedeerd zijn door een vers, dat herhaald wordt en zich in klankverschuivingen uitstrekt en soms als het ware alleen door zijn klanken betekenis krijgt, doet zich in talloze surrealistische gedichten voor. Ik verwijs naar gedichten van Paul Eluard, Paul Van Ostayen (in de Schmoll-tijd), Hugo Claus (misschien surrealist tegen wil en dank). In de titelgeving van de verschillende onderdelen van zijn bundel ‘Een huis dat tussen nacht en morgen staat’ (tussen bewustzijn, het heldere, de dag, en het onderbewuste, het donkere, de nacht) is de verwantschap met de jazz onbetwistbaar. Een gedeelte noemt Claus ‘oefeningen’, wat overeenkomt met de eerste improvisaties op een thema in de jazz, zelfs de inhoud is analoog; een ander gedeelte is ‘delfstof’ en bevat gedichten waar aan geschaafd is, die afgewerkt zijn na de opdelving uit de nacht van het onderbewustzijn. Dit staat gelijk met het stuk in de jazz, waarvan de collectieve improvisatie na de oefeningen van de jam-session rijp is voor definitieve enregistratie. Aesthetisch staan deze laatste hoger, omdat zij klaar zijn, tot het bewuste teruggebracht, en dus door de lezer beter te snappen. De oefeningen, alhoewel ruwer behoren tot het materiaal dat pas uit het onderbewustzijn werd opgedolven en zijn puurder, zoals ik zei, dat de jam-session het puurste stadium van de jazz was.
 
 Hiermede acht ik het bewijs van verwantschap tussen de kunstvormen, die in het eerste kwart van de 20ste eeuw tegelijk verschenen op verre afstand van elkaar, die bij de aanvang niets van elkaar afwisten, de negerjazz en het surrealisme, voldoende afdoend.
-<br /><br /><br /><br />
+
+<div class="MDsignature">
 Willy ROGGEMAN
 (november 53)
+</div>
 
-1. Sinds deze voordracht geschreven werd verscheen het degelijk werk van J.E. Berendt: ‘Das Jazzbuch’. Fischer-Bücherei.
-2. Vgl. Dr. Karl Jaspers: ‘Die geistige Situation der Zeit’.
-3. Zie Ortega y Gasset: ‘Opstand der Horden’; ook: ‘Bespiegelingen over Leven en Denken…’
+<ol class="MDsubList">
+<li>Sinds deze voordracht geschreven werd verscheen het degelijk werk van J.E. Berendt: ‘Das Jazzbuch’. Fischer-Bücherei.</li>
+<li>Vgl. Dr. Karl Jaspers: ‘Die geistige Situation der Zeit’.</li>
+<li>Zie Ortega y Gasset: ‘Opstand der Horden’; ook: ‘Bespiegelingen over Leven en Denken…’</li>
+</ol>

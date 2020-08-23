@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import useSWR from "swr";
 import styles from "./image.module.css";
 import { backLink } from "../../styles/utils.module.css";
-import Layout from "../../components/Layout";
+import Footerless from "../../components/layouts/Footerless";
 import Link from "next/link";
 
 const fetcher = async (url) => {
@@ -27,7 +27,7 @@ const Image = () => {
 
   return (
     <div className={styles.container}>
-      <Layout title={`Willypedia: foto's: ${data.name}`} />
+      <Footerless title={`Willypedia: foto's: ${data.name}`} />
       <div className={styles.content}>
         <h1 className={styles.dataName}>{data.name}</h1>
         <img className={styles.dataImg} src={data.img} loading="lazy" />

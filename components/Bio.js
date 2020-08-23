@@ -20,14 +20,14 @@ const Bio = () => (
       />
     </div>
 
-    <div class="bio">
+    <div className={styles.content}>
       <h3 className={styles.header}>geboorte en levensloop</h3>
 
       <h3>
         Willy Roggeman wordt op 9 juni 1934 te Ninove geboren. Hij woont er nog
         steeds.
       </h3>
-      <ul className={styles.list}>
+      <ul className={styles.unorderedList}>
         <li>
           1939 - 1948: Lagere school en lager secundair onderwijs aan de
           Rijksmiddelbare Jongensschool te Ninove (Grieks-Latijn-Wiskunde).
@@ -85,8 +85,12 @@ const Bio = () => (
         </li>
         <li>
           1977: Doctor in de Letteren en Wijsbegeerte (Universiteit Antwerpen).
-          Scriptie: Een gedicht. 'Tweespraak in de herfst' door Maurice
-          Gilliams, analyse en synthese.
+          Scriptie:{" "}
+          <i>
+            Een gedicht. 'Tweespraak in de herfst' door Maurice Gilliams,
+            analyse en synthese
+          </i>
+          .
         </li>
         <li>
           1986: Stopt zijn activiteiten in het onderwijs en wordt in 1989 op
@@ -111,11 +115,12 @@ const Bio = () => (
           2001 (herfst): Andermaal chirurgische ingreep wegens eventratie.
         </li>
         <li>
-          2002: Einde van Usque ad finem. Voorbereiding van de publicatie der
-          verzamelde gedichten. Start van de Post Opera Supplementa.
+          2002: Einde van <i>Usque ad finem</i>. Voorbereiding van de publicatie
+          der verzamelde gedichten. Start van de Post Opera Supplementa.
         </li>
         <li>
-          2004: Publicatie van vijftig jaar gedichten: De gedichten 1953 - 2002.
+          2004: Publicatie van vijftig jaar gedichten:{" "}
+          <i>De gedichten 1953 - 2002</i>.
         </li>
         <li>
           Vanaf 1986 toenemend immobilisme wegens wervelkolomaandoening en
@@ -123,39 +128,49 @@ const Bio = () => (
           oefenen.
         </li>
         <li>
-          2003 - 2009: Schrijft 20 delen Post Opera Supplementa en 10 delen
-          Annex Documenta.
+          2003 - 2009: Schrijft 20 delen <i>Post Opera Supplementa</i> en 10
+          delen
+          <i>Annex Documenta</i>.
         </li>
       </ul>
     </div>
 
-    <div className={styles.pro}>
+    <div className={styles.content}>
       <h3 className={styles.header}>Professionele activiteiten</h3>
 
-      <ul className={styles.list}>
-        <li>1954 - 1955: Medewerker van Tijd en Mens.</li>
+      <ul className={styles.unorderedList}>
+        <li>
+          1954 - 1955: Medewerker van <i>Tijd en Mens</i>.
+        </li>
         <li>1954 - 1965: Vast medewerker van kunstpagina Vooruit.</li>
         <li>1959 - 1963: Redacteur van Gard Sivik.</li>
-        <li>1961: Jazzrecensent van de Nederlandse krant De Haagse Post.</li>
         <li>
-          1963 - 1966: Jazzkroniekschrijver voor het Nederlandse blad Kunst van
-          Nu.
+          1961: Jazzrecensent van de Nederlandse krant <i>De Haagse Post</i>.
+        </li>
+        <li>
+          1963 - 1966: Jazzkroniekschrijver voor het Nederlandse blad{" "}
+          <i>Kunst van Nu</i>.
         </li>
         <li>
           1964 - 1968: Medeoprichter en (kortstondig) redacteur van het
-          tijdschrift Komma.
+          tijdschrift <i>Komma</i>.
         </li>
-        <li>1966 - 1974: Vast jazzkroniekschrijver in het weekblad De Bond.</li>
-        <li>1967 - 1974: Jazzbijdragen in het culturele weekblad K&C.</li>
+        <li>
+          1966 - 1974: Vast jazzkroniekschrijver in het weekblad <i>De Bond</i>.
+        </li>
+        <li>
+          1967 - 1974: Jazzbijdragen in het culturele weekblad <i>K&C</i>.
+        </li>
         <li>
           1970 - 1974: Presentator - programmator verbonden aan de jazzsectie
           van BRT1 & BRT3.
         </li>
         <li>1981 - 1982: Andermaal in dezelfde functie bij BRT3.</li>
         <li>
-          Vanaf de jaren 70 lid van de Werkgroep Improviserende Musici (WIM),
-          waarvoor hij de theoretische verdediging, ingediend bij het Ministerie
-          van Cultuur, schrijft.
+          Vanaf de jaren 70 lid van de{" "}
+          <i>Werkgroep Improviserende Musici (WIM)</i>, waarvoor hij de
+          theoretische verdediging, ingediend bij het Ministerie van Cultuur,
+          schrijft.
         </li>
         <li>
           1967 - 1982: Leader van het door hem gevormde WR Jazz Lab en WR Jazz
@@ -169,14 +184,19 @@ const Bio = () => (
       </ul>
     </div>
 
-    <div className={styles.prize}>
+    <div className={styles.content}>
       <h3 className={styles.header}>Prijzen</h3>
 
-      <ul className={styles.list}>
-        <li>1962: Leo J. Krynprijs voor Het goudvisje.</li>
-        <li>1963: Dirk Martensprijs voor de cyclus Kalkvrouw. Visgraatman.</li>
+      <ul className={styles.unorderedList}>
         <li>
-          1965: Ark-Prijs van het Vrije Woord voor Blues voor glazen blazers
+          1962: Leo J. Krynprijs voor <i>Het goudvisje</i>.
+        </li>
+        <li>
+          1963: Dirk Martensprijs voor de cyclus <i>Kalkvrouw. Visgraatman</i>.
+        </li>
+        <li>
+          1965: Ark-Prijs van het Vrije Woord voor{" "}
+          <i>Blues voor glazen blazers</i>
           (geweigerd door de auteur, opgedrongen door het Ark-comité).
         </li>
         <li>
@@ -185,32 +205,41 @@ const Bio = () => (
         </li>
         <li>
           1971: Bijzondere prijs van de Jan-Campertstichting voor de essaybundel
-          De ringen van de Kinkhoorn.
+          <i>De ringen van de Kinkhoorn</i>.
         </li>
         <li>1975: Rode Vossen - prijs Malperthuis.</li>
         <li>
           1976: August Beernaertprijs der Koninklijke Academie voor Nederlandse
-          Taal- en Letterkunde voor het proza Gnomon.
+          Taal- en Letterkunde voor het proza <i>Gnomon</i>.
         </li>
         <li>
           1980: Arthur A. Cornetteprijs der Koninklijke Academie voor
-          Nederlandse Taal- en Letterkunde voor de essaybundel Lithopedia.
+          Nederlandse Taal- en Letterkunde voor de essaybundel <i>Lithopedia</i>
+          .
         </li>
         <li>
-          1982: Driejaarlijkse Staatsprijs voor Kritiek en Essay voor Glazuur op
-          niets.
+          1982: Driejaarlijkse Staatsprijs voor Kritiek en Essay voor{" "}
+          <i>Glazuur op niets</i>.
         </li>
-        <li>2005: Plantin-Moretus-prijs voor De gedichten 1953 - 2002.</li>
         <li>
-          2009: Prijs voor Letterkunde van de Vlaamse Provincies voor Cadenas.
+          2005: Plantin-Moretus-prijs voor <i>De gedichten 1953 - 2002</i>.
         </li>
-        <li>2009: Plantin-Moretus-prijs voor Betoverende Katastrofe.</li>
         <li>
-          2010: Plantin-Moretus-prijs voor Practicum of het steriele schrijven.
+          2009: Prijs voor Letterkunde van de Vlaamse Provincies voor{" "}
+          <i>Cadenas</i>.
+        </li>
+        <li>
+          2009: Plantin-Moretus-prijs voor <i>Betoverende Katastrofe</i>.
+        </li>
+        <li>
+          2010: Plantin-Moretus-prijs voor{" "}
+          <i>Practicum of het steriele schrijven</i>.
         </li>
       </ul>
     </div>
-    <h5>Noot: De gegevens werden bezorgd door de auteur zelf. </h5>
+    <h5 className={styles.note}>
+      Noot: De gegevens werden bezorgd door de auteur zelf.{" "}
+    </h5>
   </main>
 );
 

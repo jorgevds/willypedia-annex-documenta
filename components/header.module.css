@@ -1,20 +1,36 @@
-.list {
+.unorderedList {
     display: flex;
-    padding-bottom: 30px;
-    color: hsla(240, 79%, 48%, 0.774);
-    font: 600 2rem 'Lora', serif;
+    margin-bottom: 30px;
+    color: hsla(240, 2%, 10%, 0.774);
+    font: 500 2rem 'Lora', serif;
     letter-spacing: 1px;
     list-style: none;
+    border-bottom: 2px solid black;
+    position: relative;
+}
+
+.unorderedList::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.listItem {
+    padding: 30px;
 }
 
 .title {
-    padding: 0 30px;
+    font-weight: bolder;
 }
 
 .headerLink {
-    color: #0c2453;
     text-decoration: none;
     position: relative;
+    padding: 0 5px;
 }
 
 .headerLink::before {
@@ -29,6 +45,11 @@
     z-index: -1;
     background: linear-gradient(180deg, rgba(255, 255, 255, 1) 25%, rgba(154, 185, 220, 0.75) 61%, rgba(44, 113, 191, 0.75) 100%);
     opacity: 0;
+}
+
+.headerLink:hover {
+    color: #0c2453;
+    transition: color .2s ease;
 }
 
 .headerLink:hover::before {

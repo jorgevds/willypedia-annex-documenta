@@ -1,3 +1,16 @@
-.header {
-    font: 400 1.5rem 'Lora', serif;
+.container {
+    background-color: #1c51bb9d;
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+    height: 20vh;
+    margin-top: 30px;
+    border-top: 1px groove black;
+    position: relative;
+}
+
+.homeLink {
+    margin: 30px;
+    color: hsla(240, 2%, 10%, 0.774);
+    font: 600 2rem 'Lora', serif;
 }
