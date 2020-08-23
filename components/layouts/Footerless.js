@@ -1,4 +1,4 @@
-import styles from "./layout.module.css";
+import styles from "./footerless.module.css";
 import Head from "next/head";
 import Header from "../Header";
 

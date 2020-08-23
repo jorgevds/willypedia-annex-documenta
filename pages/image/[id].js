@@ -26,7 +26,7 @@ const Image = () => {
   if (!data) return <div>Loading...</div>;
 
   return (
-    <div className={styles.container}>
+    <>
       <Footerless title={`Willypedia: foto's: ${data.name}`} />
       <div className={styles.content}>
         <h1 className={styles.dataName}>{data.name}</h1>
@@ -38,7 +38,7 @@ const Image = () => {
           <a className={backLink}>Terug naar overzicht</a>
         </Link>
       </div>
-    </div>
+    </>
   );
 };
 

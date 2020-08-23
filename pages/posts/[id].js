@@ -1,11 +1,11 @@
-import Layout from "../../components/layouts/Layout";
+import Footerless from "../../components/layouts/Footerless";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 import utilStyles from "../../styles/utils.module.css";
 import styles from "./post.module.css";
 
 export default function Post({ postData }) {
   return (
-    <Layout title={`Willypedia: essays: ${postData.title}`}>
+    <Footerless title={`Willypedia: essays: ${postData.title}`}>
       {/* {postData.title}
       <br />
       {postData.id}
@@ -18,7 +18,7 @@ export default function Post({ postData }) {
       <a href="/posts" className={utilStyles.backLink}>
         Terug naar overzicht
       </a>
-    </Layout>
+    </Footerless>
   );
 }
 

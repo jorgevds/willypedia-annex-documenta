@@ -14,19 +14,17 @@ const ImagesHome = () => {
 
   return (
     <Layout title="Willypedia: foto's">
-      <div className={utilStyles.container}>
-        {/* {postData.title}
+      {/* {postData.title}
         <br />
         {postData.id}
         <br />
         {postData.date} */}
-        <h3 className={utilStyles.header}>foto's</h3>
-        <ul className={utilStyles.bulletList}>
-          {data.map((p, i) => (
-            <Image key={i} image={p} className={utilStyles.listItem} />
-          ))}
-        </ul>
-      </div>
+      <h3 className={utilStyles.header}>foto's</h3>
+      <ul className={utilStyles.bulletList}>
+        {data.map((p, i) => (
+          <Image key={i} image={p} className={utilStyles.listItem} />
+        ))}
+      </ul>
     </Layout>
   );
 };
